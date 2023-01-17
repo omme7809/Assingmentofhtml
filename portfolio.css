@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    color: black;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#header {
+
+    background-color: #0080ffcb;
+    /* background-attachment: fixed; */
+    position: static;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 85vw;
+    margin: 0% 0% 0% 6% ;
+    padding: 1% 1% 1% 1% ;
+    border-radius: 15px;
+    outline-style: auto;
+    outline-color: black;
+    
+}
+
+img{
+    margin-left: 2%;
+    mix-blend-mode: darken;
+    width: 10vw;
+    height: 10vh;
+}
+
+#list{
+    display: flex;
+    /* flex-direction: ; */
+    list-style-type: none;
+    margin: 2% 0% 0% 15%;
+    font-size: 20px;
+}
+
+#list li,a{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0% 23% 0% 0% ;
+}
+
+
+#footer{
+    /* margin-top: 10%; */
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    background-color: #0080ffcb;
+    width: 85vw;
+    height: 3vh;
+    margin: 4% 0% 0% 7% ;
+    outline-style: auto;
+    outline-color: black;
+}
+
+#main{
+    width: 85vw;
+     margin: -1% 0% 0% 7%;
+    display: flex;
+    color: black;
+}
+
+#main img{
+    mix-blend-mode: darken;
+    margin-top: 2%;
+    width: 28vw;
+    height: 35vh;
+}
+
+#main p{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 45vw;
+    /* height: 30vh; */
+}
+
+#body{
+    width: 85vw;
+    margin: 1% 0% 0% 7% ;
+    display: flex;
+    color: black;
+}
+
+#body img{
+    mix-blend-mode: darken;
+    margin-top: 2%;
+    width: 28vw;
+    height: 35vh;
+}
+
+#body p{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 45vw;
+}
+
+h1{
+    padding: 2% 0% 0% 9%;
+}
